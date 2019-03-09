@@ -38,7 +38,7 @@ class App extends Component {
     });
   }
 
-  <p> {this.state.result}</p>
+  //<p> {this.state.result}</p>
 
   ///<input type="text" value= {this.state.equation}>  </input>
   render() {
