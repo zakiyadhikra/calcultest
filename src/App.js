@@ -38,6 +38,7 @@ class App extends Component {
     });
   }
 
+  <p> {this.state.result}</p>
 
   ///<input type="text" value= {this.state.equation}>  </input>
   render() {
@@ -46,7 +47,6 @@ class App extends Component {
       <div>
         <h1> Calculator App </h1>
    <p> {this.state.result}</p>
-
         <button name="1" value="1" onClick={this.calculate} className="btn btn-light" style={{padding:"15px 24px"}}>  1</button>
         <button name="2" value="2" onClick={this.calculate}className="btn btn-light"style={{padding:"15px 24px"}}>  2</button>
         <button name="3" value="3" onClick={this.calculate}className="btn btn-light"style={{padding:"15px 24px"}}>  3</button>
